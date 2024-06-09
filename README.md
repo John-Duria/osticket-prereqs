@@ -32,19 +32,21 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 
-Step 1: Crate a Resource Group and Create Virtual Machince in Azure.
+Step 1: Crate a Resource Group in Azure.
 
     Open a web browser and navigate to the Azure portal.
     Sign in with your Azure account credentials.
     
 ![image](https://github.com/John-Duria/osticket-prereqs/assets/168502429/f1111462-6a76-45f8-946a-1b6bd1a07987)
 
-Step 2:	Create a Resource Group using the step-by-step tutorial on [Creating Resource Group within Azure](https://github.com/John-Duria/Azure---Resource-Group) on my repository.
-3.	Create a Windows 10 Virtual Machine with 2-4 Virtual CPUs
-o	In the Azure portal, click on Virtual Machine from the menu.
-o	Or Search for Virtual Machine from the Search menu above.
-o	Click Create to begin creating a new virtual machine.
-o	Fill in the required details for the virtual machine:
+Create a Resource Group using the step-by-step tutorial on [Creating Resource Group within Azure](https://github.com/John-Duria/Azure---Resource-Group) on my repository.
+
+Step 2: Create a Windows 10 Virtual Machine with 2-4 Virtual CPUs
+   
+    In the Azure portal, click on Virtual Machine from the menu.
+    Or Search for Virtual Machine from the Search menu above.
+    Click Create to begin creating a new virtual machine.
+    Fill in the required details for the virtual machine:
     Subscription: Choose your Azure subscription.
     Resource group: Select the resource group created in Step 1.
     Instance details:
@@ -54,16 +56,16 @@ o	Fill in the required details for the virtual machine:
     Administrator account:
     Username: Enter a username for the VM administrator.
     Password: Enter a strong password for the administrator account.
-o	Click Next: Disks to proceed.
-2.	Disks Settings:
-o	Configure the disk settings as needed (leave default settings for this tutorial).
-o	Click Next: Networking to proceed.
-3.	Networking Settings:
-o	Configure networking settings:
-	Virtual network: Select Create new to create a new Virtual Network (VNet).
-	Subnet: Enter a name for the new subnet (e.g., DefaultSubnet).
-o	Click Next: Management to proceed.
-4.	Management Settings:
+    Click Next: Disks to proceed.   
+    Disks Settings:
+    Configure the disk settings as needed (leave default settings for this tutorial).
+    Click Next: Networking to proceed.   
+    Networking Settings:
+    Configure networking settings:
+    Virtual network: Select Create new to create a new Virtual Network (VNet).
+    Subnet: Enter a name for the new subnet (e.g., DefaultSubnet).
+    Click Next: Management to proceed.
+    Management Settings:
 o	Configure management settings as needed (leave default settings for this tutorial).
 o	Click Next: Advanced to proceed.
 5.	Advanced Settings:
