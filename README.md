@@ -66,14 +66,14 @@ Step 2: Create a Windows 10 Virtual Machine with 2-4 Virtual CPUs
     Subnet: Enter a name for the new subnet (e.g., DefaultSubnet).
     Click Next: Management to proceed.
     Management Settings:
-o	Configure management settings as needed (leave default settings for this tutorial).
-o	Click Next: Advanced to proceed.
-5.	Advanced Settings:
-o	Configure advanced settings as needed (leave default settings for this tutorial).
-o	Click Review + create to review the VM configuration.
-6.	Review and Create:
-o	Review the virtual machine configuration details.
-o	Click Create to provision the Windows 10 VM.
+    Configure management settings as needed (leave default settings for this tutorial).
+    Click Next: Advanced to proceed.
+    Advanced Settings:
+    Configure advanced settings as needed (leave default settings for this tutorial).
+    Click Review + create to review the VM configuration.
+    Review and Create:
+    Review the virtual machine configuration details.
+    Click Create to provision the Windows 10 VM.
 
 ![image](https://github.com/John-Duria/osticket-prereqs/assets/168502429/50d476ee-a1db-4dde-a1d8-7322933fbb40)
 
