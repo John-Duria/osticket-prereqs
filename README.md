@@ -32,13 +32,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 
-Step 1: Create a Resource Group and Create Virtual Machine in Azure. 
-  Open a web browser and navigate to the Azure portal.
-  Sign in with your Azure account credentials.
+Step 1: Crate a Resource Group and Create Virtual Machince in Azure.
 
+    Open a web browser and navigate to the Azure portal.
+    Sign in with your Azure account credentials.
+    
 ![image](https://github.com/John-Duria/osticket-prereqs/assets/168502429/f1111462-6a76-45f8-946a-1b6bd1a07987)
 
-2.	Create a Resource Group using the step-by-step tutorial on [Creating Resource Group within Azure](https://github.com/John-Duria/Azure---Resource-Group) on my repository.
+Step 2:	Create a Resource Group using the step-by-step tutorial on [Creating Resource Group within Azure](https://github.com/John-Duria/Azure---Resource-Group) on my repository.
 3.	Create a Windows 10 Virtual Machine with 2-4 Virtual CPUs
 o	In the Azure portal, click on Virtual Machine from the menu.
 o	Or Search for Virtual Machine from the Search menu above.
