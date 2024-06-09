@@ -43,37 +43,25 @@ Create a Resource Group using the step-by-step tutorial on [Creating Resource Gr
 
 Step 2: Create a Windows 10 Virtual Machine with 2-4 Virtual CPUs
    
-    In the Azure portal, click on Virtual Machine from the menu.
-    Or Search for Virtual Machine from the Search menu above.
-    Click Create to begin creating a new virtual machine.
-    Fill in the required details for the virtual machine:
-    Subscription: Choose your Azure subscription.
-    Resource group: Select the resource group created in Step 1.
-    Instance details:
-    Region: Choose the same region as the resource group.
-    Image: Select a Windows 10 image from the list (e.g., Windows 10 Pro).
-    Size: Choose a VM size with 2-4 virtual CPUs (e.g., Standard_DS2_v2 or Standard_DS3_v2).
-    Administrator account:
-    Username: Enter a username for the VM administrator.
-    Password: Enter a strong password for the administrator account.
-    Click Next: Disks to proceed.   
-    Disks Settings:
-    Configure the disk settings as needed (leave default settings for this tutorial).
-    Click Next: Networking to proceed.   
-    Networking Settings:
-    Configure networking settings:
-    Virtual network: Select Create new to create a new Virtual Network (VNet).
-    Subnet: Enter a name for the new subnet (e.g., DefaultSubnet).
-    Click Next: Management to proceed.
-    Management Settings:
-    Configure management settings as needed (leave default settings for this tutorial).
-    Click Next: Advanced to proceed.
-    Advanced Settings:
-    Configure advanced settings as needed (leave default settings for this tutorial).
-    Click Review + create to review the VM configuration.
-    Review and Create:
-    Review the virtual machine configuration details.
-    Click Create to provision the Windows 10 VM.
+    Navigate to Virtual Machines:
+        Click on "Virtual machines" in the left-hand menu.
+        Or Search for Virtual Machine from the Search menu above.
+    Click "+ Create" to create a new virtual machine.
+    Configure the following settings:
+        Subscription: Choose your Azure subscription.
+        Resource group: Select the resource group created in Step 1.
+        Region: Choose the same region as the resource group.
+        Image: Select a Windows 10 image from the list (e.g., Windows 10 Pro).
+        Size: Choose a VM size with 2-4 virtual CPUs (e.g., Standard_DS2_v2 or Standard_DS3_v2).
+        Username: Enter a username for the VM administrator.
+        Password: Enter a strong password for the administrator account.
+        Virtual network: Select Create new to create a new Virtual Network (VNet).
+        Subnet: Enter a name for the new subnet (e.g., DefaultSubnet).
+    
+    Review and Create: 
+        Click Review + create to review the VM configuration.
+        Review the virtual machine configuration details.
+        Click Create to provision the Windows 10 VM.
 
 ![image](https://github.com/John-Duria/osticket-prereqs/assets/168502429/50d476ee-a1db-4dde-a1d8-7322933fbb40)
 
