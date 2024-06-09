@@ -17,23 +17,22 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1. Install/Enable Internet Information Services ( IIS ).
-- Item 2. Download and Install PHP Manager for IIS.
-- Item 3. Download and Install URL Rewrite Module.
-- Item 4. Create Directory C:\PHP.
-- Item 5. Download and Install PHP 7.3.8 and unzip the contents into C:\PHP.
-- Item 6. Download and Install VC_redist.x86.exe.
-- Item 7. Download and Install MySQL 5.5.62
-- Item 8. Register PHP from within IIS
-- Item 9. Download and Install osTicket v1.15.8
-- Item 10. Download and Install Heidi SQL
-- Item 11. Enable Extensions and Configure osTicket settings.
+- Item 1. Create Resource Groups and Virtual Machines. 
+- Item 2. Install/Enable Internet Information Services ( IIS ).
+- Item 3. Download and Install PHP Manager for IIS.
+- Item 4. Download and Install URL Rewrite Module.
+- Item 5. Create Directory C:\PHP.
+- Item 6. Download and Install PHP 7.3.8 and unzip the contents into C:\PHP.
+- Item 7. Download and Install VC_redist.x86.exe.
+- Item 8. Download and Install MySQL 5.5.62
+- Item 9. Register PHP from within IIS
+- Item 10. Download and Install osTicket v1.15.8
+- Item 11. Download and Install Heidi SQL
+- Item 12. Enable Extensions and Configure osTicket settings.
 
 <h2>Installation Steps</h2>
 
-Part 1 (Create Virtual Machine in Azure)
-Step 1: Create a Resource Group
-1.	Sign in to Azure Portal:
+Step 1: Create a Resource Group and Create Virtual Machine in Azure. 
   Open a web browser and navigate to the Azure portal.
   Sign in with your Azure account credentials.
 
